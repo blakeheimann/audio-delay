@@ -7,7 +7,7 @@ const init = () => {
   }
 
   if (filter === undefined) {
-    filter = new DelayNode(context, { maxDelayTime: 5 })
+    filter = new DelayNode(context, { maxDelayTime: 179 })
     filter.connect(context.destination);
   }
 };
